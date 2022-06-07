@@ -291,3 +291,158 @@ nav::after {
 	background-color: #3381f3;
 	color: #FFF;
 }
+
+/* Send job container */
+
+#sendjobs-container {
+	background: url('../img/banner2.jpg') no-repeat;
+	background-size: cover;
+	background-position: 0 25%;
+	padding: 10em 0;
+}
+
+#sendjobs-container h2, #sendjobs-container p {
+	width: 600px;
+	color:#FFF;
+}
+
+#sendjobs-container h2 {
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+
+#sendjobs-container p {
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+.light-btn {
+	color:#666;
+	background-color: #fff;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: 0.5s;	
+
+}
+
+.light-btn:hover {
+	background-color: transparent;
+	color:#FFF;
+}
+
+/* Status jobfinder */
+
+#status-container {
+	text-align: center;
+	padding:5em 0;
+}
+
+.title-center {
+	font-size: 36px;
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+
+.p-center {
+width: 80%;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+font-size: 18px;
+
+}
+
+.status-box {
+	display: inline-block;
+	text-align: center;
+	width: 24.5%;
+	margin-top: 80px;
+	border-left:1px solid #ddd;
+	height: 100px;
+	border-right: 1px solid #ddd;
+}
+
+.status-box:nth-child(2){
+	border: none;
+}
+
+.status-box:nth-child(3){
+	border-right:none;
+}
+
+.status-qtd {
+	font-size: 36px;
+
+}
+
+.status-text {
+	font-size: 20px;
+
+}
+
+/* testmony container */
+
+#testmony-container {
+	background:url('../img/banner7.jpg') no-repeat;
+	background-size: cover;
+	padding: 10em 0;
+}
+
+#testmony-container h2, #testmony-container p {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#testmony-container h2 {
+	font-size: 36px;
+}
+
+.testmony-box {
+	display: inline-block;
+	width: 24.5%;
+	text-align: center;
+}
+
+#testmony-container .testmony-box .testmony-msg {
+	background-color: #fff;
+	color: #666;
+	border-radius: 10px;
+	padding: 20px;
+	width: 50%;
+	position: relative;
+	margin: 35px auto;
+	font-style: italic;
+}
+
+.testmony-msg:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
+	bottom: -20px;
+	left:0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+}
+
+.testmony-box img {
+	width: 100px;
+	height: 100px;
+	border:1px solid #CCC;
+	border-radius: 50%;
+}
+
+.testmony-name {
+	font-weight: bold;
+}
+
